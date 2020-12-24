@@ -23,6 +23,9 @@
  <script>
 alert('hello dear customer');
 var customerName= prompt('please enter your name');
+while (customerName ===''|| customerName === null){
+    customerName = prompt('enter your name')
+}
 document.write('welcome  '  + customerName +  ' to our restaurant');
 var message;
 var time = prompt('what time is it');
@@ -32,9 +35,11 @@ if (time<12) {
     message='you should check our lunch meals';
 }
 alert(message);
-  </script>
 
-  <h3> Our Menu </h3>
+</script>
+  
+
+<h3> Our Menu </h3>
   <img src="menu-3.jpg" alt="">
   <p> We offer a lot of tasty food and drinks that you must try.  </p>
   
@@ -49,6 +54,7 @@ alert(message);
         </ul>   
     </p>
 
- </footer>  
+ </footer> 
+ <script src="pics.js"></script> 
 </body>
 </html>
