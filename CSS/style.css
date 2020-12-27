@@ -1,21 +1,25 @@
 .nav-list{
     display:inline-block;
-    color: gray ;
+    color:white ;
     padding:3px ;
+    border: white 3px;
+
 
 }
 #header-color{
-    background-color:gray;
+    background-color:black ;
     border: black 4px;
     padding: 3px;
     margin: 8px;
+    color: white;
 }
 #main-style{
-    background-color:black;
+    background-color:gray;
     color: whitesmoke;
 }
 #footer-style{
-    background-color: silver;
+    background-color:black;
+    color: white;
 }
 #email{
     font-style: italic;
