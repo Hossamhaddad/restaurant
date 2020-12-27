@@ -1,0 +1,25 @@
+.nav-list{
+    display:inline-block;
+    color: gray ;
+    padding:3px ;
+
+}
+#header-color{
+    background-color:gray;
+    border: black 4px;
+    padding: 3px;
+    margin: 8px;
+}
+#main-style{
+    background-color:black;
+    color: whitesmoke;
+}
+#footer-style{
+    background-color: silver;
+}
+#email{
+    font-style: italic;
+}
+#phoneNum{ 
+    font-style: italic;
+}
