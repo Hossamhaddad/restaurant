@@ -8,7 +8,6 @@ function validateUserInput(){
 
 alert('hello dear customer');
 var customerName;
-var time;
 customerName= validateUserInput ();
 
 document.write('welcome  '  + customerName +  ' to our restaurant');
